@@ -3,9 +3,9 @@ pipeline {
 	agent any
 
 	
-	tools {
-  maven 'm360'
-}
+// 	tools {
+//   maven 'm360'
+// }
 	
 	parameters {
   string defaultValue: 'adi', name: 'name', trim: true
